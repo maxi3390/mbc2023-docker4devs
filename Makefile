@@ -1,4 +1,4 @@
 #!/bin/bash
 
 start:
-	docker-compose -it motoko /bin/bash
+	docker-compose run -it motoko /bin/bash
