@@ -1,0 +1,11 @@
+version: "3.9"
+
+services:
+  motoko:
+    build: ./docker
+    platform: linux/amd64
+    user: node
+    volumes:
+      - ./dfx-config:/home/node/.config/dfx
+      - ./app:/app
+
