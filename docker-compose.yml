@@ -8,4 +8,5 @@ services:
     volumes:
       - ./dfx-config:/home/node/.config/dfx
       - ./app:/app
-
+    ports:
+      - "3001:3001"
